@@ -166,3 +166,10 @@ body{
     align-content:baseline;
     background-color:darkgoldenrod;
 }
+.Center{
+    display:flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    background-color:darkgoldenrod;
+}
