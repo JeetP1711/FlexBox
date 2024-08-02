@@ -62,3 +62,8 @@ body{
     justify-content: center;
     background-color: darkgoldenrod;
 }
+.jcStart{
+    display:flex;
+    justify-content: flex-start;
+    background-color:darkgoldenrod;
+}
