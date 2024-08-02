@@ -57,3 +57,8 @@ body{
     flex-flow: row wrap;
     background-color: darkgoldenrod;
 }
+.jcCenter{
+    display: flex;
+    justify-content: center;
+    background-color: darkgoldenrod;
+}
