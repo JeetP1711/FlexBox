@@ -84,3 +84,8 @@ body{
     justify-content: space-between;
     background-color:darkgoldenrod;
 }
+.jcSpaceE{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:darkgoldenrod;
+}
