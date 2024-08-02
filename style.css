@@ -9,6 +9,14 @@ body{
     line-height: 75px;
     font-size: 30px;
 }
+.resize{
+    max-height: 500px;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100%;
+    resize: both;
+    overflow: hidden;
+}
 .nowrap{
     display: flex;
     flex-wrap: nowrap;
