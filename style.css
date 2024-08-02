@@ -95,3 +95,9 @@ body{
     align-items: center;
     background-color:darkgoldenrod;
 }
+.alignStart{
+    display:flex;
+    height: 200px;
+    align-items: flex-start;
+    background-color:darkgoldenrod;
+}
