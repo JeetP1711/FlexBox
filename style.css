@@ -79,3 +79,8 @@ body{
     justify-content: space-around;
     background-color:darkgoldenrod;
 }
+.jcSpaceB{
+    display:flex;
+    justify-content: space-between;
+    background-color:darkgoldenrod;
+}
