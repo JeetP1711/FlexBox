@@ -107,3 +107,9 @@ body{
     align-items: flex-end;
     background-color:darkgoldenrod;
 }
+.alignBaseline{
+    display:flex;
+    height: 200px;
+    align-items: baseline;
+    background-color:darkgoldenrod;
+}
