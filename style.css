@@ -1,14 +1,16 @@
-body{
+body {
     background-color: lightgoldenrodyellow;
     color: darkgoldenrod;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-*::selection{
+
+*::selection {
     color: lightgoldenrodyellow;
     background-color: darkgoldenrod;
 }
-.container{
+
+.container {
     background-color: lightgoldenrodyellow;
     width: 100px;
     margin: 10px;
@@ -16,160 +18,140 @@ body{
     line-height: 75px;
     font-size: 30px;
 }
-.resize{
+
+.resize {
     min-height: 100px;
     min-width: 100px;
     max-width: 100%;
     resize: horizontal;
     overflow: hidden;
 }
-.nowrap{
+
+.flex {
     display: flex;
+    background-color: darkgoldenrod;
+}
+
+.nowrap {
     flex-wrap: nowrap;
-    background-color: darkgoldenrod;
 }
-.wrap{
-    display: flex;
+
+.wrap {
     flex-wrap: wrap;
-    background-color: darkgoldenrod;
 }
-.flexColumn{
-    display: flex;
+
+.flexColumn {
     flex-direction: column;
-    background-color: darkgoldenrod;
 }
-.flexColumnReverse{
-    display: flex;
+
+.flexColumnReverse {
     flex-direction: column-reverse;
-    background-color: darkgoldenrod;
 }
-.flexRow{
-    display: flex;
+
+.flexRow {
     flex-direction: row;
-    background-color: darkgoldenrod;
 }
-.flexRowReverse{
-    display: flex;
+
+.flexRowReverse {
     flex-direction: row-reverse;
-    background-color: darkgoldenrod;
 }
-.wrapReverse{
-    display: flex;
+
+.wrapReverse {
     flex-wrap: wrap-reverse;
-    background-color: darkgoldenrod;
 }
-.flexFlow{
-    display: flex;
+
+.flexFlow {
     flex-flow: row wrap;
-    background-color: darkgoldenrod;
 }
-.jcCenter{
-    display: flex;
+
+.jcCenter {
     justify-content: center;
-    background-color: darkgoldenrod;
 }
-.jcStart{
-    display:flex;
+
+.jcStart {
     justify-content: flex-start;
-    background-color:darkgoldenrod;
 }
-.jcEnd{
-    display:flex;
+
+.jcEnd {
     justify-content: flex-end;
-    background-color:darkgoldenrod;
 }
-.jcSpaceA{
-    display:flex;
+
+.jcSpaceA {
     justify-content: space-around;
-    background-color:darkgoldenrod;
 }
-.jcSpaceB{
-    display:flex;
+
+.jcSpaceB {
     justify-content: space-between;
-    background-color:darkgoldenrod;
 }
-.jcSpaceE{
-    display:flex;
+
+.jcSpaceE {
     justify-content: space-evenly;
-    background-color:darkgoldenrod;
 }
-.alignCenter{
-    display:flex;
+
+.alignCenter {
     height: 200px;
     align-items: center;
-    background-color:darkgoldenrod;
 }
-.alignStart{
-    display:flex;
+
+.alignStart {
     height: 200px;
     align-items: flex-start;
-    background-color:darkgoldenrod;
 }
-.alignEnd{
-    display:flex;
+
+.alignEnd {
     height: 200px;
     align-items: flex-end;
-    background-color:darkgoldenrod;
 }
-.alignBaseline{
-    display:flex;
+
+.alignBaseline {
     height: 200px;
     align-items: baseline;
-    background-color:darkgoldenrod;
 }
-.alignCSpaceB{
-    display:flex;
+
+.alignCSpaceB {
     height: 600px;
     flex-wrap: wrap;
     align-content: space-between;
-    background-color:darkgoldenrod;
 }
-.alignCSpaceA{
-    display:flex;
+
+.alignCSpaceA {
     height: 600px;
     flex-wrap: wrap;
     align-content: space-around;
-    background-color:darkgoldenrod;
 }
-.alignCStretch{
-    display:flex;
+
+.alignCStretch {
     height: 600px;
     flex-wrap: wrap;
     align-content: stretch;
-    background-color:darkgoldenrod;
 }
-.alignCCenter{
-    display:flex;
+
+.alignCCenter {
     height: 600px;
     flex-wrap: wrap;
     align-content: center;
-    background-color:darkgoldenrod;
 }
-.alignCStart{
-    display:flex;
+
+.alignCStart {
     height: 600px;
     flex-wrap: wrap;
     align-content: flex-start;
-    background-color:darkgoldenrod;
 }
-.alignCEnd{
-    display:flex;
+
+.alignCEnd {
     height: 600px;
     flex-wrap: wrap;
     align-content: flex-end;
-    background-color:darkgoldenrod;
 }
-.alignCBaseline{
-    display:flex;
+
+.alignCBaseline {
     height: 600px;
     flex-wrap: wrap;
-    align-content:baseline;
-    background-color:darkgoldenrod;
+    align-content: baseline;
 }
-.Center{
-    display:flex;
+
+.Center {
     height: 600px;
     align-items: center;
     justify-content: center;
-    background-color:darkgoldenrod;
 }
