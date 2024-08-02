@@ -39,3 +39,8 @@ body{
     flex-direction: row-reverse;
     background-color: darkgoldenrod;
 }
+.wrapReverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: darkgoldenrod;
+}
