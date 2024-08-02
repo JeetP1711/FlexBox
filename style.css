@@ -1,17 +1,17 @@
 body {
-    background-color: lightgoldenrodyellow;
-    color: darkgoldenrod;
+    background-color: rgb(146, 196, 232);
+    color: rgb(2, 51, 87);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
 *::selection {
-    color: lightgoldenrodyellow;
-    background-color: darkgoldenrod;
+    color: rgb(146, 196, 232);
+    background-color: rgb(2, 51, 87);
 }
 
 .container {
-    background-color: lightgoldenrodyellow;
+    background-color: rgb(146, 196, 232);
     width: 100px;
     margin: 10px;
     text-align: center;
@@ -29,7 +29,7 @@ body {
 
 .flex {
     display: flex;
-    background-color: darkgoldenrod;
+    background-color: rgb(2, 51, 87);
 }
 
 .nowrap {
