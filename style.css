@@ -101,3 +101,9 @@ body{
     align-items: flex-start;
     background-color:darkgoldenrod;
 }
+.alignEnd{
+    display:flex;
+    height: 200px;
+    align-items: flex-end;
+    background-color:darkgoldenrod;
+}
