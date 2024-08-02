@@ -89,3 +89,9 @@ body{
     justify-content: space-evenly;
     background-color:darkgoldenrod;
 }
+.alignCenter{
+    display:flex;
+    height: 200px;
+    align-items: center;
+    background-color:darkgoldenrod;
+}
