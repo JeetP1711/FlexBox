@@ -1,7 +1,13 @@
 body {
     background-color: rgb(146, 196, 232);
     color: rgb(2, 51, 87);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+        font-family: "Inconsolata", monospace;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
     font-size: 20px;
 }
 
@@ -17,6 +23,8 @@ body {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
 }
 
 .resize {
@@ -24,7 +32,8 @@ body {
     min-width: 100px;
     max-width: 100%;
     resize: horizontal;
-    overflow: hidden;
+    overflow: auto;
+    max-height: none;
 }
 
 .flex {

@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
     <title>FlexBox in HTML & CSS</title>
 </head>
 
@@ -163,167 +166,197 @@
 
     <h3>1. Center</h2>
 
-    <div class="alignCenter resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-    </div>
+        <div class="alignCenter resize flex">
+            <div class="container">1</div>
+            <div class="container">2</div>
+            <div class="container">3</div>
+            <div class="container">4</div>
+        </div>
 
-    <h3>2. Flex-Start</h2>
+        <h3>2. Flex-Start</h2>
 
-    <div class="alignStart resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-    </div>
+            <div class="alignStart resize flex">
+                <div class="container">1</div>
+                <div class="container">2</div>
+                <div class="container">3</div>
+                <div class="container">4</div>
+            </div>
 
-    <h3>3. Flex-End</h2>
+            <h3>3. Flex-End</h2>
 
-    <div class="alignEnd resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-    </div>
+                <div class="alignEnd resize flex">
+                    <div class="container">1</div>
+                    <div class="container">2</div>
+                    <div class="container">3</div>
+                    <div class="container">4</div>
+                </div>
 
-    <h3>4. Flex-Baseline</h2>
+                <h3>4. Flex-Baseline</h2>
 
-    <div class="alignBaseline resize flex">
-        <div class="container"><h1>1</h1></div>
-        <div class="container"><h4>2</h4></div>
-        <div class="container">3</div>
-        <div class="container"><h6>4</h6></div>
-    </div>
+                    <div class="alignBaseline resize flex">
+                        <div class="container">
+                            <h1>1</h1>
+                        </div>
+                        <div class="container">
+                            <h4>2</h4>
+                        </div>
+                        <div class="container">3</div>
+                        <div class="container">
+                            <h6>4</h6>
+                        </div>
+                    </div>
 
-    <h2>Align Content Property</h2>
+                    <h2>Align Content Property</h2>
 
 
-    <h3>1. Space-Between</h3>
+                    <h3>1. Space-Between</h3>
 
-    <div class="alignCSpaceB resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-        <div class="container">5</div>
-        <div class="container">6</div>
-        <div class="container">7</div>
-        <div class="container">8</div>
-        <div class="container">9</div>
-        <div class="container">10</div>
-        <div class="container">11</div>
-        <div class="container">12</div>
-    </div>
+                    <div class="alignCSpaceB resize flex">
+                        <div class="container">1</div>
+                        <div class="container">2</div>
+                        <div class="container">3</div>
+                        <div class="container">4</div>
+                        <div class="container">5</div>
+                        <div class="container">6</div>
+                        <div class="container">7</div>
+                        <div class="container">8</div>
+                        <div class="container">9</div>
+                        <div class="container">10</div>
+                        <div class="container">11</div>
+                        <div class="container">12</div>
+                    </div>
 
-    <h3>2. Space-Around</h3>
+                    <h3>2. Space-Around</h3>
 
-    <div class="alignCSpaceA resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-        <div class="container">5</div>
-        <div class="container">6</div>
-        <div class="container">7</div>
-        <div class="container">8</div>
-        <div class="container">9</div>
-        <div class="container">10</div>
-        <div class="container">11</div>
-        <div class="container">12</div>
-    </div>
+                    <div class="alignCSpaceA resize flex">
+                        <div class="container">1</div>
+                        <div class="container">2</div>
+                        <div class="container">3</div>
+                        <div class="container">4</div>
+                        <div class="container">5</div>
+                        <div class="container">6</div>
+                        <div class="container">7</div>
+                        <div class="container">8</div>
+                        <div class="container">9</div>
+                        <div class="container">10</div>
+                        <div class="container">11</div>
+                        <div class="container">12</div>
+                    </div>
 
-    <h3>3. Stretch</h3>
+                    <h3>3. Stretch</h3>
 
-    <div class="alignCStretch resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-        <div class="container">5</div>
-        <div class="container">6</div>
-        <div class="container">7</div>
-        <div class="container">8</div>
-        <div class="container">9</div>
-        <div class="container">10</div>
-        <div class="container">11</div>
-        <div class="container">12</div>
-    </div>
+                    <div class="alignCStretch resize flex">
+                        <div class="container">1</div>
+                        <div class="container">2</div>
+                        <div class="container">3</div>
+                        <div class="container">4</div>
+                        <div class="container">5</div>
+                        <div class="container">6</div>
+                        <div class="container">7</div>
+                        <div class="container">8</div>
+                        <div class="container">9</div>
+                        <div class="container">10</div>
+                        <div class="container">11</div>
+                        <div class="container">12</div>
+                    </div>
 
-    <h3>4. Center</h3>
+                    <h3>4. Center</h3>
 
-    <div class="alignCCenter resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-        <div class="container">5</div>
-        <div class="container">6</div>
-        <div class="container">7</div>
-        <div class="container">8</div>
-        <div class="container">9</div>
-        <div class="container">10</div>
-        <div class="container">11</div>
-        <div class="container">12</div>
-    </div>
+                    <div class="alignCCenter resize flex">
+                        <div class="container">1</div>
+                        <div class="container">2</div>
+                        <div class="container">3</div>
+                        <div class="container">4</div>
+                        <div class="container">5</div>
+                        <div class="container">6</div>
+                        <div class="container">7</div>
+                        <div class="container">8</div>
+                        <div class="container">9</div>
+                        <div class="container">10</div>
+                        <div class="container">11</div>
+                        <div class="container">12</div>
+                    </div>
 
-    <h3>5. Flex-Start</h3>
+                    <h3>5. Flex-Start</h3>
 
-    <div class="alignCStart resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-        <div class="container">5</div>
-        <div class="container">6</div>
-        <div class="container">7</div>
-        <div class="container">8</div>
-        <div class="container">9</div>
-        <div class="container">10</div>
-        <div class="container">11</div>
-        <div class="container">12</div>
-    </div>
+                    <div class="alignCStart resize flex">
+                        <div class="container">1</div>
+                        <div class="container">2</div>
+                        <div class="container">3</div>
+                        <div class="container">4</div>
+                        <div class="container">5</div>
+                        <div class="container">6</div>
+                        <div class="container">7</div>
+                        <div class="container">8</div>
+                        <div class="container">9</div>
+                        <div class="container">10</div>
+                        <div class="container">11</div>
+                        <div class="container">12</div>
+                    </div>
 
-    <h3>6. Flex-End</h3>
+                    <h3>6. Flex-End</h3>
 
-    <div class="alignCEnd resize flex">
-        <div class="container">1</div>
-        <div class="container">2</div>
-        <div class="container">3</div>
-        <div class="container">4</div>
-        <div class="container">5</div>
-        <div class="container">6</div>
-        <div class="container">7</div>
-        <div class="container">8</div>
-        <div class="container">9</div>
-        <div class="container">10</div>
-        <div class="container">11</div>
-        <div class="container">12</div>
-    </div>
+                    <div class="alignCEnd resize flex">
+                        <div class="container">1</div>
+                        <div class="container">2</div>
+                        <div class="container">3</div>
+                        <div class="container">4</div>
+                        <div class="container">5</div>
+                        <div class="container">6</div>
+                        <div class="container">7</div>
+                        <div class="container">8</div>
+                        <div class="container">9</div>
+                        <div class="container">10</div>
+                        <div class="container">11</div>
+                        <div class="container">12</div>
+                    </div>
 
-    <h3>7. Flex-Baseline</h3>
+                    <h3>7. Flex-Baseline</h3>
 
-    <div class="alignCBaseline resize flex">
-        <div class="container"><h1>1</h1></div>
-        <div class="container"><h2>2</h2></div>
-        <div class="container"><h3>3</h3></div>
-        <div class="container"><h4>4</h4></div>
-        <div class="container"><h5>5</h5></div>
-        <div class="container"><h6>6</h6></div>
-        <div class="container"><h1>7</h1></div>
-        <div class="container"><h2>8</h2></div>
-        <div class="container"><h3>9</h3></div>
-        <div class="container"><h4>10</h4></div>
-        <div class="container"><h5>11</h5></div>
-        <div class="container"><h6>12</h6></div>
-    </div>
+                    <div class="alignCBaseline resize flex">
+                        <div class="container">
+                            <h1>1</h1>
+                        </div>
+                        <div class="container">
+                            <h2>2</h2>
+                        </div>
+                        <div class="container">
+                            <h3>3</h3>
+                        </div>
+                        <div class="container">
+                            <h4>4</h4>
+                        </div>
+                        <div class="container">
+                            <h5>5</h5>
+                        </div>
+                        <div class="container">
+                            <h6>6</h6>
+                        </div>
+                        <div class="container">
+                            <h1>7</h1>
+                        </div>
+                        <div class="container">
+                            <h2>8</h2>
+                        </div>
+                        <div class="container">
+                            <h3>9</h3>
+                        </div>
+                        <div class="container">
+                            <h4>10</h4>
+                        </div>
+                        <div class="container">
+                            <h5>11</h5>
+                        </div>
+                        <div class="container">
+                            <h6>12</h6>
+                        </div>
+                    </div>
 
-    <h2>Perfect Centering</h2>
+                    <h2>Perfect Centering</h2>
 
-    <div class="Center resize flex">
-        <div class="container">1</div>
-    </div>
+                    <div class="Center resize flex">
+                        <div class="container">1</div>
+                    </div>
 </body>
 
 </html>
